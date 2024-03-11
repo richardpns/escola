@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Cursos - Prog Escola</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Prog Escola</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cursos.html">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="matricula.html">Matrícula</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="email.html">Email</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+<div class="container mt-4">
+  <div class="row">
+    <!-- Exemplo de Card -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./assets/curso1.png" class="card-img-top" alt="Imagem do Curso">
+        <div class="card-body">
+          <h5 class="card-title">Programação basica</h5>
+          <p class="card-text">Um curso introdutório para iniciantes em programação. Aprenda os fundamentos da lógica de programação, algoritmos e estruturas de controle.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#curso1">
+            Ver Mais
+          </button>
+        </div>
+      </div>
+    </div>
+
+          <div class="container mt-4">
+            <div class="row">
+              <!-- Exemplo de Card -->
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <img src="./assets/curso2.png" class="card-img-top" alt="Imagem do Curso">
+                  <div class="card-body">
+                    <h5 class="card-title">Programação basica</h5>
+                    <p class="card-text"> Explore o processo de criação de jogos, abrangendo desde a concepção até a implementação. Duração geralmente entre 6 meses e 1 ano. Cobertura de linguagens como C#, Unity ou Unreal Engine, design de jogos e narrativa interativa.</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#curso2">
+                      Ver Mais
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+                <div class="row">
+                  <!-- Exemplo de Card -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card">
+                      <img src="./assets/curso3.jpg" class="card-img-top" alt="Imagem do Curso">
+                      <div class="card-body">
+                        <h5 class="card-title">Programação basica</h5>
+                        <p class="card-text">Aprenda a construir sites dinâmicos e interativos, com ênfase no front-end e back-end. Duração típica de 6 meses a 1 ano. Inclui HTML, CSS, JavaScript, frameworks como React ou Angular, além de noções de bancos de dados e segurança.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#curso3">
+                          Ver Mais
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <!-- Exemplo de Card -->
+                    <div class="col-md-4 mb-4">
+                      <div class="card">
+                        <img src="./assets/curso4.jpg" class="card-img-top" alt="Imagem do Curso">
+                        <div class="card-body">
+                          <h5 class="card-title">Programação basica</h5>
+                          <p class="card-text">Desenvolva habilidades para proteger sistemas e redes contra ameaças cibernéticas. Duração geralmente entre 3 e 6 meses. Aborda tópicos como análise de vulnerabilidades, prevenção de ataques e resposta a incidentes.</p>
+                          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#curso4">
+                            Ver Mais
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+    
+                    <div class="row">
+                      <!-- Exemplo de Card -->
+                      <div class="col-md-4 mb-4">
+                        <div class="card">
+                          <img src="./assets/curso5.png" class="card-img-top" alt="Imagem do Curso">
+                          <div class="card-body">
+                            <h5 class="card-title">Programação basica</h5>
+                            <p class="card-text">Aprofunde-se em conceitos avançados de programação, como algoritmos complexos e estruturas de dados. Duração típica de 3 a 6 meses. Cobertura de linguagens como Python, Java ou C++, com foco em soluções escaláveis e eficientes.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#curso5">
+                              Ver Mais
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+<!-- Modal -->
+<div class="modal fade" id="curso2" tabindex="-1" role="dialog" aria-labelledby="curso2Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="curso2Label">Detalhes do Curso</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Adicione informações detalhadas do curso aqui -->
+        <p> Este curso abrange todo o ciclo de vida do desenvolvimento de jogos, desde a concepção da ideia até a publicação do produto final. Ao longo de aproximadamente 6 meses a 1 ano, os participantes mergulharão em linguagens de programação como C# e plataformas de desenvolvimento populares como Unity ou Unreal Engine. Além disso, serão introduzidos aos princípios do design de jogos, arte e animação, efeitos sonoros e narrativa interativa. O curso é projetado para proporcionar uma compreensão abrangente de como criar jogos que envolvam e cativem os jogadores.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="curso1" tabindex="-1" role="dialog" aria-labelledby="curso1Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="curso1Label">Detalhes do Curso</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Adicione informações detalhadas do curso aqui -->
+        <p> Este curso introdutório de 2 a 3 meses oferece uma introdução aos fundamentos da programação. Os alunos aprenderão os princípios básicos da lógica de programação e começarão a escrever código em uma linguagem como Python ou JavaScript. Projetos simples e exercícios práticos ajudarão a consolidar o aprendizado. Ao final do curso, os alunos terão uma compreensão sólida dos conceitos essenciais da programação, preparando-os para cursos mais avançados ou projetos pessoais na área de tecnologia.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="curso3" tabindex="-1" role="dialog" aria-labelledby="curso3Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="curso3Label">Detalhes do Curso</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Adicione informações detalhadas do curso aqui -->
+        <p>Neste curso, os alunos aprenderão a criar websites dinâmicos e funcionais, dominando tanto o front-end quanto o back-end do desenvolvimento web. Ao longo de aproximadamente 6 meses a 1 ano, serão exploradas linguagens como HTML, CSS e JavaScript, bem como frameworks populares como React, Angular ou Vue.js. Além disso, os alunos serão introduzidos a conceitos de bancos de dados e segurança web, garantindo que estejam equipados para construir sites robustos e seguros..</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="curso4" tabindex="-1" role="dialog" aria-labelledby="curso4Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="curso4Label">Detalhes do Curso</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Adicione informações detalhadas do curso aqui -->
+        <p>Com a crescente preocupação com a segurança online, este curso de 3 a 6 meses visa capacitar os participantes a proteger sistemas e redes contra ameaças cibernéticas. Os alunos aprenderão sobre técnicas de hacking ético, análise de vulnerabilidades, prevenção de ataques e resposta a incidentes. O curso abordará também tópicos avançados como criptografia, segurança de redes e conformidade regulatória, preparando os alunos para enfrentar os desafios complexos do mundo da segurança cibernética.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="curso5" tabindex="-1" role="dialog" aria-labelledby="curso5Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="curso5Label">Detalhes do Curso</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Adicione informações detalhadas do curso aqui -->
+        <p> Este curso avançado de programação tem duração aproximada de 3 a 6 meses e é destinado a estudantes com experiência prévia em programação. Os participantes serão desafiados a aprofundar seus conhecimentos em linguagens como Python, Java ou C++, explorando conceitos avançados de algoritmos e estruturas de dados. O foco será em desenvolver soluções escaláveis e eficientes para problemas complexos, preparando os alunos para enfrentar desafios no desenvolvimento de software em nível profissional.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
